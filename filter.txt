@@ -1,0 +1,25 @@
+! Block YouTube completely
+||youtube.com^
+||www.youtube.com^
+||m.youtube.com^
+||youtu.be^
+||youtube-nocookie.com^
+
+! Block Facebook completely
+||facebook.com^
+||www.facebook.com^
+||m.facebook.com^
+||web.facebook.com^
+||touch.facebook.com^
+
+! Allow Messenger to work
+@@||messenger.com^
+@@||www.messenger.com^
+@@||m.messenger.com^
+
+! Additional Messenger endpoints that might be needed
+@@||scontent.xx.fbcdn.net^$domain=messenger.com
+@@||static.xx.fbcdn.net^$domain=messenger.com
+@@||graph.facebook.com^$domain=messenger.com
+@@||api.facebook.com^$domain=messenger.com
+@@||rupload.facebook.com^$domain=messenger.com
