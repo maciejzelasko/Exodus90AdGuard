@@ -5,6 +5,17 @@
 ||youtu.be^
 ||youtube-nocookie.com^
 
+! Allow YouTube Music to work
+@@||music.youtube.com^
+@@||music-youtube.com^
+
+! Additional endpoints needed for YouTube Music
+@@||youtubei.googleapis.com^$domain=music.youtube.com
+@@||yt3.ggpht.com^$domain=music.youtube.com
+@@||i.ytimg.com^$domain=music.youtube.com
+@@||s.ytimg.com^$domain=music.youtube.com
+@@||googleusercontent.com^$domain=music.youtube.com
+
 ! Block Facebook completely
 ||facebook.com^
 ||www.facebook.com^
